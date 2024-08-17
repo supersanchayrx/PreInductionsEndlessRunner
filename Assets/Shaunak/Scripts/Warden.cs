@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class WardenChaser : MonoBehaviour
+public class Warden : MonoBehaviour
 {
     [SerializeField] float speed;
     [SerializeField] Animator anim;
@@ -26,8 +26,11 @@ public class WardenChaser : MonoBehaviour
         if (distanceToPlayer >= stopDistance )
         {
             anim.SetBool("isRunning", true);
-            //transform.position += moveDirn * speed * Time.deltaTime;
-            rb.velocity = moveDirn.normalized*speed*100f*Time.deltaTime;
+            transform.position =  new Vector3(player.position.x, transform.position.y, transform.position.z);
+            //Debug.Log(player.position);
+            rb.velocity = transform.forward * 100f * speed * Time.deltaTime;
+            //rb.velocity = moveDirn.normalized*speedx*100f*Time.deltaTime;
+            //rb.velocity = new Vector3(moveDirn.x*speedx*100f*Time.deltaTime, moveDirn.y*speedy*100f*Time.deltaTime);
         }
 
         else
