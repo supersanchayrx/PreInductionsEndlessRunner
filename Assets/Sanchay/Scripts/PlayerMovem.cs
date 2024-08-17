@@ -7,6 +7,10 @@ public class PlayerMovem : MonoBehaviour
 {
 
     [SerializeField] float speed;
+    private float originalSpeed;
+    private bool isSlowed = false;
+    [SerializeField] private float slowTime = 10f;
+    private bool isDead = false;
     Rigidbody rb;
     Animator anim;
     //[SerializeField] Animator anim;
@@ -15,6 +19,7 @@ public class PlayerMovem : MonoBehaviour
         rb = GetComponent<Rigidbody>();
         anim = GetComponent<Animator>();
         anim.SetBool("isRunning", false);
+        originalSpeed = speed;
     }
 
     // Update is called once per frame
@@ -29,7 +34,9 @@ public class PlayerMovem : MonoBehaviour
              transform.position += transform.forward * speed * Time.deltaTime;
          }
         */
-        if(Input.GetMouseButtonDown(0)) 
+        if (isDead) return;
+
+        if (Input.GetMouseButtonDown(0)) 
         {
             anim.SetBool("isRunning", true);
 
@@ -52,5 +59,40 @@ public class PlayerMovem : MonoBehaviour
             }
         }
         
+    }
+
+    public void SlowDown()
+    {
+        if (!isSlowed)
+        {
+            isSlowed = true;
+            speed *= 0.75f; // Reduce speed by 25%
+            Debug.Log("Slowed!");
+            StartCoroutine(RemoveSlowdown());
+        }
+        else
+        {
+            // Player is already slowed, so they die
+            Die();
+        }
+    }
+    private IEnumerator RemoveSlowdown()
+    {
+        yield return new WaitForSeconds(slowTime);
+        if (!isDead) // Only reset speed if the player is not dead
+        {
+            isSlowed = false;
+            speed = originalSpeed; // Reset speed to original
+        }
+    }
+
+    private void Die()
+    {
+        isDead = true;
+        Destroy(this.gameObject); // Destroy player object
+    }
+    public bool IsSlowed()
+    {
+        return isSlowed;
     }
 }
