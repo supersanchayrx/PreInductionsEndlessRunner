@@ -4,16 +4,18 @@ using UnityEngine;
 
 public class Warden : MonoBehaviour
 {
-    [SerializeField] float speed;
+    public float speed;
     [SerializeField] Animator anim;
-    [SerializeField] Transform player;
     [SerializeField] float stopDistance;
     Rigidbody rb;
+    Transform player;
     //[SerializeField] Rigidbody rb;
     void Start()
     {   
         rb = GetComponent<Rigidbody>();
        anim.SetBool("isRunning", false); 
+       player = GameObject.Find("hardy").GetComponent<Transform>();
+
     }
 
     // Update is called once per frame
