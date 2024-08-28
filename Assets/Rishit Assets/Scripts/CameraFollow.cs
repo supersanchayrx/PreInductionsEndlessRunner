@@ -4,8 +4,9 @@ public class CameraFollow : MonoBehaviour
 {
     public Transform player;
     Vector3 offset;
+
     // Start is called before the first frame update
-    private void Start()
+    void Start()
     {
         offset = transform.position - player.position;
     }
