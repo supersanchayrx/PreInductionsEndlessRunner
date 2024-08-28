@@ -192,6 +192,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   obstaclePrefab: {fileID: 5381374639706543170, guid: 5022536344fafd248a3d6104db737cb0,
     type: 3}
+  gradePrefab: {fileID: 2005033802566868305, guid: 6befb5a923e8bbf45b2379ba07ada932,
+    type: 3}
 --- !u!1 &2855272878030949916
 GameObject:
   m_ObjectHideFlags: 0
