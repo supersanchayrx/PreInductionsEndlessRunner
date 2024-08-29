@@ -8,6 +8,9 @@ public class Player : MonoBehaviour
     [SerializeField] float run_speed;
     [SerializeField] float switch_speed;
     [SerializeField] Transform right_lane, left_lane, center_lane;
+
+    public KeyCode moveleft;
+    public KeyCode moveright;
     Rigidbody rb;
     Animator anim;
     int cur_lane;
@@ -26,6 +29,8 @@ public class Player : MonoBehaviour
         -1 -> Left
         */ 
         cur_lane = 0;
+        moveleft = KeyCode.A;
+        moveright = KeyCode.D;
 
     }
 
@@ -79,7 +84,7 @@ public class Player : MonoBehaviour
         {
             rb.velocity = Vector3.forward.normalized * run_speed * 100f * Time.deltaTime;
 
-            if(Input.GetKeyDown(KeyCode.D))
+            if(Input.GetKeyDown(moveright))
             {
                 if(cur_lane == 0)
                 {
@@ -90,7 +95,7 @@ public class Player : MonoBehaviour
                     cur_lane = 0;
                 }
             }
-            if(Input.GetKeyDown(KeyCode.A))
+            if(Input.GetKeyDown(moveleft))
             {
                 if(cur_lane == 0)
                 {

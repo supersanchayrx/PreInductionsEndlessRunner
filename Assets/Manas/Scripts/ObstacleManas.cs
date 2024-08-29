@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Obstacle : MonoBehaviour
+public class ObstacleManas : MonoBehaviour
 {
     public float lifeTime = 5f;
     private float timeAlive = 0f;

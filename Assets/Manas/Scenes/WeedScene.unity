@@ -1626,7 +1626,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   flyHeight: 3
-  flyTime: 2
+  flyTime: 5
   flySpeed: 2
 --- !u!114 &841775862
 MonoBehaviour:
