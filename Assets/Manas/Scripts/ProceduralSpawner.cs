@@ -7,7 +7,7 @@ public class ProceduralSpawner : MonoBehaviour
     public Transform[] spawnPoints;
 
     public GameObject player;
-    public GameObject powerUp;
+    public GameObject[] powerUps;
 
     public float spawnTime = 5f;
     public float spawnDist = 25f;
@@ -31,6 +31,8 @@ public class ProceduralSpawner : MonoBehaviour
         int randIndx = Random.Range(0, spawnPoints.Length);
         //Debug.Log(spawnPoints.Length);
         Transform spawnPoint = spawnPoints[randIndx];
+        int randPowerUp = Random.Range(0, powerUps.Length); 
+        GameObject powerUp = powerUps[randPowerUp];
         //Debug.Log(spawnPoint.name);
         Instantiate(powerUp, spawnPoint.position,spawnPoint.rotation);
     }
