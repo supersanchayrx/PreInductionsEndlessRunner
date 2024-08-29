@@ -3296,9 +3296,11 @@ MonoBehaviour:
   - {fileID: 1461493798}
   - {fileID: 499923045}
   - {fileID: 1461133406}
-  player: {fileID: 913168553}
-  powerUp: {fileID: 804487281258257772, guid: 55048ce032c64864b9af35f83f379f6e, type: 3}
-  spawnTime: 5
+  player: {fileID: 913168552}
+  powerUps:
+  - {fileID: 804487281258257772, guid: 55048ce032c64864b9af35f83f379f6e, type: 3}
+  - {fileID: 9191624578879820648, guid: b70944a42b8d20d4493d76bd03e74c24, type: 3}
+  spawnTime: 1
   spawnDist: 25
 --- !u!4 &972182241
 Transform:

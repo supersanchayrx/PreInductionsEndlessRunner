@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Obstacle : MonoBehaviour
+public class Obstacles : MonoBehaviour
 {
     PlayerMovem playerMovement;
     // Start is called before the first frame update
@@ -13,7 +13,7 @@ public class Obstacle : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
-        if (collision.gameObject.name == "hardy") 
+        if (collision.gameObject.name == "hardy (1)") 
         // To kill the player
         playerMovement.Die();
     }
