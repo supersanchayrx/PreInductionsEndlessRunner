@@ -88,7 +88,7 @@ public class PlayerMovem : MonoBehaviour
         }
     }
 
-    private void Die()
+    public void Die()
     {
         isDead = true;
         Destroy(this.gameObject); // Destroy player object

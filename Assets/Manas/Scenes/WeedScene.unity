@@ -1627,7 +1627,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   flyHeight: 3
-  flyTime: 2
+  flyTime: 5
   flySpeed: 2
 --- !u!114 &841775862
 MonoBehaviour:
@@ -2822,6 +2822,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_Version: 3
+  m_UsePipelineSettings: 1
+  m_AdditionalLightsShadowResolutionTier: 2
+  m_LightLayerMask: 1
+  m_RenderingLayers: 1
+  m_CustomShadowLayers: 0
+  m_ShadowLayerMask: 1
+  m_ShadowRenderingLayers: 1
+  m_LightCookieSize: {x: 1, y: 1}
+  m_LightCookieOffset: {x: 0, y: 0}
+  m_SoftShadowQuality: 0
 --- !u!1 &1683782201
 GameObject:
   m_ObjectHideFlags: 0
@@ -3047,6 +3058,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_Version: 3
+  m_UsePipelineSettings: 1
+  m_AdditionalLightsShadowResolutionTier: 2
+  m_LightLayerMask: 1
+  m_RenderingLayers: 1
+  m_CustomShadowLayers: 0
+  m_ShadowLayerMask: 1
+  m_ShadowRenderingLayers: 1
+  m_LightCookieSize: {x: 1, y: 1}
+  m_LightCookieOffset: {x: 0, y: 0}
+  m_SoftShadowQuality: 0
 --- !u!1 &1912783572
 GameObject:
   m_ObjectHideFlags: 0
@@ -3407,6 +3429,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4ee22973a5e95404e8fb85771b54326f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 0
+  anim: {fileID: 2020332656}
+  stopDistance: 0
+--- !u!95 &2020332656 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 8868175296079464824, guid: 7ac9c2f0d26de3f449806367bd4ad192,
+    type: 3}
+  m_PrefabInstance: {fileID: 961434035}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2059214128
 GameObject:
   m_ObjectHideFlags: 0
