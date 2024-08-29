@@ -10,6 +10,7 @@ public class spawner_despawner : MonoBehaviour
     [SerializeField] Transform spawnpoint;
 
     Transform player;
+    
     // Start is called before the first frame update
     void Start()
     {
