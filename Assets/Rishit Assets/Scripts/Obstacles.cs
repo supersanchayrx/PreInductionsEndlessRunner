@@ -13,7 +13,7 @@ public class Obstacles : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
-        if (collision.gameObject.name == "hardy (1)") 
+        if (collision.gameObject.name == "player") 
         // To kill the player
         playerMovement.Die();
     }

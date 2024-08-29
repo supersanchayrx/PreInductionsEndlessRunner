@@ -14,7 +14,7 @@ public class Warden : MonoBehaviour
     {   
         rb = GetComponent<Rigidbody>();
        anim.SetBool("isRunning", false); 
-       player = GameObject.Find("hardy").GetComponent<Transform>();
+       player = GameObject.Find("player").GetComponent<Transform>();
 
     }
 

@@ -752,7 +752,7 @@ PrefabInstance:
     - target: {fileID: 9066448889381766649, guid: 6ecaa859b64ef9244bf2154be5bc92e5,
         type: 3}
       propertyPath: m_Name
-      value: hardy (1)
+      value: player
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2714,6 +2714,52 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1470636916}
   m_Mesh: {fileID: -1550514412580984892, guid: d1265c9fada77b34e96c5f6219a94674, type: 3}
+--- !u!1 &1472811154
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1472811156}
+  - component: {fileID: 1472811155}
+  m_Layer: 0
+  m_Name: GroundSpawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1472811155
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1472811154}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e452f7073928010429b18a76a5da412d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  groundTile: {fileID: 2106607051607496653, guid: 64f7188ea726e5a4e8c21301f1186c7d,
+    type: 3}
+--- !u!4 &1472811156
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1472811154}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -3.6278486, y: -3.148901, z: 11.3378315}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1554514485
 GameObject:
   m_ObjectHideFlags: 0
@@ -3429,8 +3475,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 0
-  anim: {fileID: 0}
+  anim: {fileID: 2020332656}
   stopDistance: 0
+--- !u!95 &2020332656 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 8868175296079464824, guid: 7ac9c2f0d26de3f449806367bd4ad192,
+    type: 3}
+  m_PrefabInstance: {fileID: 961434035}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2059214128
 GameObject:
   m_ObjectHideFlags: 0
@@ -3778,3 +3830,4 @@ SceneRoots:
   - {fileID: 961434035}
   - {fileID: 212810614}
   - {fileID: 360959209}
+  - {fileID: 1472811156}
