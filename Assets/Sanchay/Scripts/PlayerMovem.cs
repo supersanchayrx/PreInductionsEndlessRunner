@@ -44,7 +44,9 @@ public class PlayerMovem : MonoBehaviour
 
         if(anim.GetBool("isRunning"))
         {
-            rb.velocity = Vector3.forward.normalized * speed * 100f * Time.deltaTime;
+            //rb.velocity = Vector3.forward.normalized * speed * 100f * Time.deltaTime;
+            rb.AddForce(Vector3.forward * speed  * Time.deltaTime, ForceMode.VelocityChange);
+
 
 
             if (transform.position.x < 5f && Input.GetKeyDown(KeyCode.D))

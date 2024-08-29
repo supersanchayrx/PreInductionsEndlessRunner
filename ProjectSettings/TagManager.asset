@@ -7,6 +7,8 @@ TagManager:
   - Roads
   - generatorCollider
   - pashus
+  - Chaser
+  - Weed
   layers:
   - Default
   - TransparentFX
