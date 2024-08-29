@@ -4,16 +4,16 @@ using UnityEngine;
 
 public class Obstacle : MonoBehaviour
 {
-    PlayerMovement playerMovement;
+    PlayerMovem playerMovement;
     // Start is called before the first frame update
     void Start()
     {
-        playerMovement = GameObject.FindObjectOfType<PlayerMovement>();
+        playerMovement = GameObject.FindObjectOfType<PlayerMovem>();
     }
 
     private void OnCollisionEnter(Collision collision)
     {
-        if (collision.gameObject.name == "Player") 
+        if (collision.gameObject.name == "hardy") 
         // To kill the player
         playerMovement.Die();
     }

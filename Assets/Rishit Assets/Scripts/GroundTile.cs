@@ -8,7 +8,7 @@ public class GroundTile : MonoBehaviour
     {
         groundSpawner = GameObject.FindObjectOfType<GroundSpawner>();
         SpawnObstacle();
-        SpawnGrades();
+        //SpawnGrades();
     }
 
     private void OnTriggerExit(Collider other)
@@ -20,11 +20,11 @@ public class GroundTile : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+
     }
     public GameObject obstaclePrefab;
 
-    void SpawnObstacle ()
+    void SpawnObstacle()
     {
         // Choose a random point to spawn the obstacle
         int obstacleSpawnIndex = Random.Range(2, 5);
@@ -32,10 +32,11 @@ public class GroundTile : MonoBehaviour
         // Spawn the obstacle at that position
         Instantiate(obstaclePrefab, spawnPoint.position, Quaternion.identity, transform);
     }
+}
 
-    public GameObject gradePrefab;
+   /* public GameObject gradePrefab;
 
-    void SpawnGrades ()
+   /* void SpawnGrades ()
     {
         int gradesToSpawn = 10;
         for(int i = 0; i < gradesToSpawn; i++) 
@@ -44,7 +45,7 @@ public class GroundTile : MonoBehaviour
             temp.transform.position = GetRandomPointInCollider(GetComponent<Collider>());
         }
     }
-    Vector3 GetRandomPointInCollider (Collider collider)
+   /* Vector3 GetRandomPointInCollider (Collider collider)
     {
         Vector3 point = new Vector3(
             Random.Range(collider.bounds.min.x, collider.bounds.max.x),
@@ -59,3 +60,4 @@ public class GroundTile : MonoBehaviour
         return point;
     }
 }
+   */

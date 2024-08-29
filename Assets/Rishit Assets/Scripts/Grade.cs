@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class Grade : MonoBehaviour
 {
-    public float turnSpeed = 90f;
+}
+   /* public float turnSpeed = 90f;
     private void OnTriggerEnter(Collider other)
     {
         // Check that the object we collided with is the player
@@ -27,3 +28,4 @@ public class Grade : MonoBehaviour
         transform.Rotate(0,0, turnSpeed*Time.deltaTime);
     }
 }
+   */
