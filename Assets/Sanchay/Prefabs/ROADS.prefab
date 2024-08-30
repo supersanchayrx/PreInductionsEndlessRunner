@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 7046788609907632155}
   - component: {fileID: 5078328486897009785}
   - component: {fileID: 5601892347986001961}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: pashu3
   m_TagString: pashus
   m_Icon: {fileID: 0}
@@ -148,7 +148,7 @@ GameObject:
   - component: {fileID: 4986621939454170453}
   - component: {fileID: 8244359951836925304}
   - component: {fileID: 4484874878429823217}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: pashu1 (1)
   m_TagString: pashus
   m_Icon: {fileID: 0}
@@ -282,7 +282,7 @@ GameObject:
   - component: {fileID: 1964962686402071492}
   - component: {fileID: 8313989305825671616}
   - component: {fileID: 8032188014693893884}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: right
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -384,7 +384,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5500045820422187442}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: pashus (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -423,7 +423,7 @@ GameObject:
   - component: {fileID: 7890550669786293939}
   - component: {fileID: 6371298089120135927}
   - component: {fileID: 5764992675961491531}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: middle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -527,7 +527,7 @@ GameObject:
   - component: {fileID: 7239085085803038942}
   - component: {fileID: 8468251120134509461}
   - component: {fileID: 5476133312877983753}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TriggerCollider
   m_TagString: generatorCollider
   m_Icon: {fileID: 0}
@@ -593,7 +593,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4686545055300598806}
   - component: {fileID: 2625119257767847474}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: ROADS
   m_TagString: Roads
   m_Icon: {fileID: 0}
@@ -654,7 +654,7 @@ GameObject:
   - component: {fileID: 5516561565586019212}
   - component: {fileID: 6895715850848210232}
   - component: {fileID: 7452927654832725899}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: pashu2
   m_TagString: pashus
   m_Icon: {fileID: 0}
@@ -789,7 +789,7 @@ GameObject:
   - component: {fileID: 245429514391941080}
   - component: {fileID: 2908339691206320174}
   - component: {fileID: 1503888645974199212}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: pashu1 (2)
   m_TagString: pashus
   m_Icon: {fileID: 0}
@@ -924,7 +924,7 @@ GameObject:
   - component: {fileID: 5220992936059769508}
   - component: {fileID: 7774177208481352861}
   - component: {fileID: 7731691129659608397}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: pashu1
   m_TagString: pashus
   m_Icon: {fileID: 0}
@@ -1058,7 +1058,7 @@ GameObject:
   - component: {fileID: 6654436384721935500}
   - component: {fileID: 3481402939697749106}
   - component: {fileID: 7615187031627076234}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: left
   m_TagString: Untagged
   m_Icon: {fileID: 0}

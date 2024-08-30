@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 567122601067677733}
   - component: {fileID: 561939412669695854}
   - component: {fileID: 6111268223568466318}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: middle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -118,7 +118,7 @@ GameObject:
   - component: {fileID: 1448296219964537786}
   - component: {fileID: 1449920480639068556}
   - component: {fileID: 2217368165513551824}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: pashu1
   m_TagString: pashus
   m_Icon: {fileID: 0}
@@ -252,7 +252,7 @@ GameObject:
   - component: {fileID: 7847761210483457972}
   - component: {fileID: 5418311864148028882}
   - component: {fileID: 8239589248686423588}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: right
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -354,7 +354,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4639784073544164030}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: pashus (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -391,7 +391,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4903125828912829374}
   - component: {fileID: 1068102455036448003}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: ROADSLanes
   m_TagString: Roads
   m_Icon: {fileID: 0}
@@ -452,7 +452,7 @@ GameObject:
   - component: {fileID: 6402809436672187727}
   - component: {fileID: 1551020265788327875}
   - component: {fileID: 5705364186996219376}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: pashu1 (2)
   m_TagString: pashus
   m_Icon: {fileID: 0}
@@ -587,7 +587,7 @@ GameObject:
   - component: {fileID: 464288145415620122}
   - component: {fileID: 3463257937663545484}
   - component: {fileID: 5682635407445886364}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: pashu2
   m_TagString: pashus
   m_Icon: {fileID: 0}
@@ -722,7 +722,7 @@ GameObject:
   - component: {fileID: 4082406830484001852}
   - component: {fileID: 9032414550775985269}
   - component: {fileID: 2254804647509281344}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: pashu1 (1)
   m_TagString: pashus
   m_Icon: {fileID: 0}
@@ -857,7 +857,7 @@ GameObject:
   - component: {fileID: 862168218175915599}
   - component: {fileID: 2889525270189575303}
   - component: {fileID: 3469392316227471899}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: pashu3
   m_TagString: pashus
   m_Icon: {fileID: 0}
@@ -991,7 +991,7 @@ GameObject:
   - component: {fileID: 4057750954665470591}
   - component: {fileID: 3158692699012994353}
   - component: {fileID: 1122947514969654479}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: left
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1095,7 +1095,7 @@ GameObject:
   - component: {fileID: 283097577029167160}
   - component: {fileID: 531409833208257096}
   - component: {fileID: 8041952963529751935}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TriggerCollider
   m_TagString: generatorCollider
   m_Icon: {fileID: 0}

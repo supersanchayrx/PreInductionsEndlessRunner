@@ -9,12 +9,15 @@ public class Warden : MonoBehaviour
     [SerializeField] float stopDistance;
     Rigidbody rb;
     Transform player;
+
+    
     //[SerializeField] Rigidbody rb;
     void Start()
     {   
         rb = GetComponent<Rigidbody>();
        anim.SetBool("isRunning", false); 
        player = GameObject.Find("player").GetComponent<Transform>();
+        
 
     }
 
@@ -30,7 +33,7 @@ public class Warden : MonoBehaviour
             anim.SetBool("isRunning", true);
             transform.position =  new Vector3(player.position.x, transform.position.y, transform.position.z);
             //Debug.Log(player.position);
-            rb.velocity = transform.forward * 100f * speed * Time.deltaTime;
+            
             //rb.velocity = moveDirn.normalized*speedx*100f*Time.deltaTime;
             //rb.velocity = new Vector3(moveDirn.x*speedx*100f*Time.deltaTime, moveDirn.y*speedy*100f*Time.deltaTime);
         }
@@ -38,6 +41,23 @@ public class Warden : MonoBehaviour
         else
         {
             anim.SetBool("isRunning", false);
+           
         }
+
+    }
+
+
+    private void FixedUpdate()
+    {
+
+        if(anim.GetBool("isRunning"))
+        {
+            wardenRun();
+        }
+    }
+
+    void wardenRun()
+    {
+        rb.velocity = new Vector3(rb.velocity.x, rb.velocity.y, speed * 100f * Time.deltaTime);
     }
 }

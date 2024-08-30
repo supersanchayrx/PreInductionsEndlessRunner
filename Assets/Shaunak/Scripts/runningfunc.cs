@@ -6,10 +6,14 @@ public class runningfunc : MonoBehaviour
 {
     Warden warden;
 
+
     private void OnTriggerEnter(Collider other)
     {
-        if(other.gameObject.CompareTag("Chaser"))
+        
+        if(other.CompareTag("Chaser"))
         {
+            Debug.Log("cHASE STARTDED");
+
             warden = (other.gameObject).GetComponent<Warden>();
             StartCoroutine("SpeedChase");
             
@@ -18,8 +22,8 @@ public class runningfunc : MonoBehaviour
 
     IEnumerator  SpeedChase()
     {
-        warden.speed = 5;
+        warden.speed = 5f;
         yield return new WaitForSeconds(1);
-        warden.speed = 3;
+        warden.speed = 3f;
     }
 }

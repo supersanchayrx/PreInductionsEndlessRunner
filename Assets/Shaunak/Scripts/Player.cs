@@ -39,41 +39,37 @@ public class Player : MonoBehaviour
     {
         Debug.Log(cur_lane);
 
-        //start the running anim when any key pressed
+        
         if(Input.anyKeyDown) 
         {
             anim.SetBool("isRunning", true);
 
         }
 
-        // update position according to Lane
+        
         if(cur_lane == 0)
         {
-            //**teleport logic
-            //transform.position = new Vector3(center_lane.position.x,transform.position.y,transform.position.z);
+           
+            
 
-            //**using transform
+            
             Vector3 new_pos = new Vector3(center_lane.position.x,transform.position.y,transform.position.z);
             transform.position = Vector3.Lerp(transform.position, new_pos, switch_speed * Time.deltaTime);
 
-            //rb (doesnt work)
-            /*if(transform.position != new_pos)
-            rb.velocity = (new_pos - transform.position).normalized * switch_speed * Time.deltaTime * 100f;
-            else
-            rb.velocity = new Vector3(0,0,0);*/
+            
                
         }
         if(cur_lane == 1)
         {
 
-            //transform.position = new Vector3(right_lane.position.x,transform.position.y,transform.position.z);
+            
             Vector3 new_pos = new Vector3(right_lane.position.x,transform.position.y,transform.position.z);
             transform.position = Vector3.Lerp(transform.position, new_pos, switch_speed * Time.deltaTime);
 
         }
         if(cur_lane == -1)
         {
-            //transform.position = new Vector3(left_lane.position.x,transform.position.y,transform.position.z);
+            
             Vector3 new_pos = new Vector3(left_lane.position.x,transform.position.y,transform.position.z);
             transform.position = Vector3.Lerp(transform.position, new_pos, switch_speed * Time.deltaTime);
 

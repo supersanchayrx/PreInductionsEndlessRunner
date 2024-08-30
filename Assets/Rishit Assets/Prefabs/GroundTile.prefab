@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 10523579297757072}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: ObstacleSpawnMiddle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -44,7 +44,7 @@ GameObject:
   - component: {fileID: 5292751196968251852}
   - component: {fileID: 2779987017745166506}
   - component: {fileID: 3904286586132307957}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: RoadTile (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -130,7 +130,7 @@ GameObject:
   - component: {fileID: 3042910849473272706}
   - component: {fileID: 8629376658169247135}
   - component: {fileID: 1671577789035060971}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: GroundTile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -201,7 +201,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9139192490539192326}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: ObstacleSpawnRight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -232,7 +232,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2593264287535513556}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: ObstacleSpawnLeft
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -267,7 +267,7 @@ GameObject:
   - component: {fileID: 346775142804624760}
   - component: {fileID: 2648097159029641133}
   - component: {fileID: 6456045147746932200}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: RoadTile (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -355,7 +355,7 @@ GameObject:
   - component: {fileID: 1990400871609025728}
   - component: {fileID: 5839144690279919004}
   - component: {fileID: 9144152083581639996}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: RoadTile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -441,7 +441,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5106423042060861089}
   - component: {fileID: 4929416815067335743}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Plane
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -498,7 +498,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 367894424294049454}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: NextSpawnPoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -533,10 +533,20 @@ PrefabInstance:
       propertyPath: m_Center.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3304939846651984343, guid: 8bad0935d3b8fca47a0d90f7dea91971,
+        type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 3763024030011768559, guid: 8bad0935d3b8fca47a0d90f7dea91971,
         type: 3}
       propertyPath: m_Name
       value: Plane
+      objectReference: {fileID: 0}
+    - target: {fileID: 3763024030011768559, guid: 8bad0935d3b8fca47a0d90f7dea91971,
+        type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6051136993535905152, guid: 8bad0935d3b8fca47a0d90f7dea91971,
         type: 3}
@@ -587,6 +597,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6108403222091694743, guid: 8bad0935d3b8fca47a0d90f7dea91971,
+        type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 9123527674767900879, guid: 8bad0935d3b8fca47a0d90f7dea91971,
+        type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
