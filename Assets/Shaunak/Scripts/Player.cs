@@ -82,9 +82,9 @@ public class Player : MonoBehaviour
         //update the cur_lane variable according to the key pressed
         if(anim.GetBool("isRunning"))
         {
-            rb.velocity = Vector3.forward.normalized * run_speed * 100f * Time.deltaTime;
+            rb.AddForce(Vector3.forward * run_speed * Time.deltaTime, ForceMode.VelocityChange);
 
-            if(Input.GetKeyDown(moveright))
+            if (Input.GetKeyDown(moveright))
             {
                 if(cur_lane == 0)
                 {

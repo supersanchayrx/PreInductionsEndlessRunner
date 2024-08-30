@@ -12,8 +12,8 @@ Effects:
 public class Alcohol : MonoBehaviour
 {
     [SerializeField] VisualEffect visualEffect;
-    [SerializeField] bool isDrunk;
-    [SerializeField] Player player;
+    [SerializeField] public bool isDrunk;
+    [SerializeField] PlayerMovem player;
   private void Start()
   {
     visualEffect.enabled = false;
@@ -30,10 +30,10 @@ public class Alcohol : MonoBehaviour
     }
 
     //Dummy key to enable drunk
-    if(Input.GetKeyDown(KeyCode.K))
+    /*if(Input.GetKeyDown(KeyCode.K))
     {
         isDrunk = true;
-    }
+    }*/
   }
 
 

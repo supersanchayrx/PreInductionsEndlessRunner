@@ -13,6 +13,9 @@ public class PlayerMovem : MonoBehaviour
     private bool isDead = false;
     Rigidbody rb;
     Animator anim;
+    public KeyCode moveleft;
+    public KeyCode moveright;
+
     //[SerializeField] Animator anim;
     void Start()
     {   
@@ -20,6 +23,8 @@ public class PlayerMovem : MonoBehaviour
         anim = GetComponent<Animator>();
         anim.SetBool("isRunning", false);
         originalSpeed = speed;
+        moveleft = KeyCode.A;
+        moveright = KeyCode.D;
     }
 
     // Update is called once per frame
@@ -49,13 +54,13 @@ public class PlayerMovem : MonoBehaviour
 
 
 
-            if (transform.position.x < 5f && Input.GetKeyDown(KeyCode.D))
+            if (transform.position.x < 5f && Input.GetKeyDown(moveright))
             {
                 transform.position += transform.right * 5f;
             }
 
 
-            else if (transform.position.x > -5f && Input.GetKeyDown(KeyCode.A))
+            else if (transform.position.x > -5f && Input.GetKeyDown(moveleft))
             {
                 transform.position += -transform.right * 5f;
             }

@@ -8,6 +8,8 @@ public class PowerUps : MonoBehaviour
     [SerializeField] float flyTime = 5f;
     [SerializeField] float flySpeed = 2f;
 
+    [SerializeField] Alcohol alc;
+
     private Rigidbody rb;
 
     // Start is called before the first frame update
@@ -27,6 +29,12 @@ public class PowerUps : MonoBehaviour
         if (collision.gameObject.CompareTag("Weed"))
         {
             StartCoroutine(GetHigh(this.gameObject));
+            Destroy(collision.gameObject);
+        }
+        if (collision.gameObject.CompareTag("Alcohol"))
+        {
+            Debug.Log("alchohol!!");
+            alc.isDrunk = true;
             Destroy(collision.gameObject);
         }
             
