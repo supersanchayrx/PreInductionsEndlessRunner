@@ -38,7 +38,6 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.1802852, g: 0.2257169, b: 0.30692452, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -755,6 +754,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: player
       objectReference: {fileID: 0}
+    - target: {fileID: 9066448889381766649, guid: 6ecaa859b64ef9244bf2154be5bc92e5,
+        type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1379,8 +1383,8 @@ MonoBehaviour:
   player: {fileID: 841775860}
   powerUps:
   - {fileID: 804487281258257772, guid: 55048ce032c64864b9af35f83f379f6e, type: 3}
-  - {fileID: 9191624578879820648, guid: b70944a42b8d20d4493d76bd03e74c24, type: 3}
-  - {fileID: 405956152070707130, guid: b1c18ecd94f9665419c61f962cd8fc36, type: 3}
+  - {fileID: 804487281258257772, guid: 55048ce032c64864b9af35f83f379f6e, type: 3}
+  - {fileID: 804487281258257772, guid: 55048ce032c64864b9af35f83f379f6e, type: 3}
   spawnTime: 1
   spawnDist: 50
 --- !u!1 &734774210
@@ -1632,7 +1636,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 841775860}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 47e3cde0054b58d41835466e70e5930d, type: 3}
   m_Name: 
@@ -1641,6 +1645,7 @@ MonoBehaviour:
   flyTime: 5
   flySpeed: 2
   alc: {fileID: 1445684994}
+  player: {fileID: 841775862}
 --- !u!114 &841775862
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2172,12 +2177,12 @@ MonoBehaviour:
   m_RequiresColorTexture: 0
   m_Version: 2
   m_TaaSettings:
-    quality: 3
-    frameInfluence: 0.1
-    jitterScale: 1
-    mipBias: 0
-    varianceClampScale: 0.9
-    contrastAdaptiveSharpening: 0
+    m_Quality: 3
+    m_FrameInfluence: 0.1
+    m_JitterScale: 1
+    m_MipBias: 0
+    m_VarianceClampScale: 0.9
+    m_ContrastAdaptiveSharpening: 0
 --- !u!1001 &961434035
 PrefabInstance:
   m_ObjectHideFlags: 0

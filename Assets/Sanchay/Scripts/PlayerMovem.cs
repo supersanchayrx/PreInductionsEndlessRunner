@@ -16,6 +16,9 @@ public class PlayerMovem : MonoBehaviour
     public KeyCode moveleft;
     public KeyCode moveright;
 
+    bool movingRight = false;
+    bool movingLeft = false;
+    
     //[SerializeField] Animator anim;
     void Start()
     {   
@@ -26,9 +29,20 @@ public class PlayerMovem : MonoBehaviour
         moveleft = KeyCode.A;
         moveright = KeyCode.D;
     }
-
+    private void Update()
+    {
+        if (Input.GetKeyDown(moveright))
+        {
+            movingRight = true;
+        }
+        if (Input.GetKeyDown(moveleft))
+        {
+            movingLeft = true;
+        }
+        
+    }
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         /*float z = Input.GetAxis("Horizontal");
         float x = Input.GetAxis("Vertical");
@@ -50,19 +64,22 @@ public class PlayerMovem : MonoBehaviour
         if(anim.GetBool("isRunning"))
         {
             //rb.velocity = Vector3.forward.normalized * speed * 100f * Time.deltaTime;
-            rb.AddForce(Vector3.forward * speed  * Time.deltaTime, ForceMode.VelocityChange);
+            rb.velocity = new Vector3(rb.velocity.x, rb.velocity.y, speed*100f*Time.deltaTime);
+            //rb.AddForce(Vector3.forward * speed  * Time.deltaTime, ForceMode.VelocityChange);
 
 
 
-            if (transform.position.x < 5f && Input.GetKeyDown(moveright))
+            if (transform.position.x < 5f && movingRight)
             {
                 transform.position += transform.right * 5f;
+                movingRight = false;
             }
 
 
-            else if (transform.position.x > -5f && Input.GetKeyDown(moveleft))
+            if (transform.position.x > -5f && movingLeft)
             {
                 transform.position += -transform.right * 5f;
+                movingLeft = false;
             }
         }
         

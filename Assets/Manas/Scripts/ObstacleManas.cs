@@ -26,10 +26,10 @@ public class ObstacleManas : MonoBehaviour
 
     }
 
-    private void OnTriggerEnter(Collider other)
+    /*private void OnTriggerEnter(Collider other)
     {
 
-        if (other.transform.name == "hardy")
+        if (other.gameObject.CompareTag("Player") )
         {
             PlayerMovem player = other.GetComponent<PlayerMovem>();
             if (player != null)
@@ -39,4 +39,5 @@ public class ObstacleManas : MonoBehaviour
             }
         }
     }
+    */
 }

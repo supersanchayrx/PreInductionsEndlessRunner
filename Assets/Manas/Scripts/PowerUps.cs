@@ -12,10 +12,13 @@ public class PowerUps : MonoBehaviour
 
     private Rigidbody rb;
 
+    [SerializeField] PlayerMovem player;
+
     // Start is called before the first frame update
     void Start()
     {
         rb = GetComponent<Rigidbody>();
+        player = GetComponent<PlayerMovem>();
     }
 
     // Update is called once per frame
@@ -31,14 +34,22 @@ public class PowerUps : MonoBehaviour
             StartCoroutine(GetHigh(this.gameObject));
             Destroy(collision.gameObject);
         }
-        if (collision.gameObject.CompareTag("Alcohol"))
+        else if (collision.gameObject.CompareTag("Alcohol"))
         {
             Debug.Log("alchohol!!");
             alc.isDrunk = true;
             Destroy(collision.gameObject);
         }
-            
+        else if (collision.gameObject.CompareTag("Obstacle"))
+        {
+            if (player != null)
+            {
+                player.SlowDown();
+                Destroy(collision.gameObject); // Destroy the obstacle after affecting the player
+            }
+        }
     }
+
 
     
     private IEnumerator GetHigh(GameObject player)

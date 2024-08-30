@@ -10,6 +10,7 @@ TagManager:
   - Chaser
   - Weed
   - Alcohol
+  - Obstacle
   layers:
   - Default
   - TransparentFX

@@ -35,7 +35,7 @@ public class Player : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         Debug.Log(cur_lane);
 
