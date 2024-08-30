@@ -12,12 +12,12 @@ public class spawner_despawner : MonoBehaviour
     Transform player;
     void Update()
     {
-        //press key to spawn enemy
+        /*//press key to spawn enemy
         if (Input.GetKeyDown(KeyCode.LeftControl))
         {
             Spawn();
             
-        }
+        }*/
     }
 
 

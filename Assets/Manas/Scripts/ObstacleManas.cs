@@ -6,6 +6,7 @@ public class ObstacleManas : MonoBehaviour
 {
     public float lifeTime = 5f;
     private float timeAlive = 0f;
+    spawner_despawner spawner_Despawner;
 
 
     // Start is called before the first frame update

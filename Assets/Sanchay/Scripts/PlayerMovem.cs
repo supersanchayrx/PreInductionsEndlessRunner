@@ -25,6 +25,7 @@ public class PlayerMovem : MonoBehaviour
     int cur_lane;
     [SerializeField] float switch_speed;
     [SerializeField] Transform right_lane, left_lane, center_lane;
+    spawner_despawner spawner_Despawner;
 
     //[SerializeField] Animator anim;
     void Start()
@@ -36,6 +37,7 @@ public class PlayerMovem : MonoBehaviour
         moveleft = KeyCode.A;
         moveright = KeyCode.D;
          isJumping = false;
+        spawner_Despawner = gameObject.transform.Find("box_check").GetComponent<spawner_despawner>();
     }
     private void Update()
     {
@@ -174,6 +176,7 @@ public class PlayerMovem : MonoBehaviour
             isSlowed = true;
             speed *= 0.75f; // Reduce speed by 25%
             Debug.Log("Slowed!");
+            spawner_Despawner.Spawn();
             StartCoroutine(RemoveSlowdown());
         }
         else
