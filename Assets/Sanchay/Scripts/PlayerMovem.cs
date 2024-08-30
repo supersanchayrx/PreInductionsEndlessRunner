@@ -103,12 +103,9 @@ public class PlayerMovem : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
-        if (isJumping)
-        {
-            jump();
-            
-        }
         
+            jump();
+       
         /*float z = Input.GetAxis("Horizontal");
         float x = Input.GetAxis("Vertical");
         Vector3 moveInput = new Vector3 (x, 0, -z);*/
@@ -211,7 +208,7 @@ public class PlayerMovem : MonoBehaviour
     private void jump()
     {
         Debug.Log("Jump Called");
-        /*if (isGrounded )*/
+        if (isJumping)
         {
             Debug.Log("jumping");
             rb.AddForce(Vector3.up * jumpForce,ForceMode.Impulse);
