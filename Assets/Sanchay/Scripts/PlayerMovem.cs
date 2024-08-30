@@ -51,12 +51,14 @@ public class PlayerMovem : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space) && isGrounded)
         {
             isJumping = true;
+            jump();
         }
 
         else
         {
             isJumping = false;
         }
+        
 
         //jump_timer -= Time.deltaTime;
         /*if (Input.GetKeyDown(moveright))
@@ -104,7 +106,7 @@ public class PlayerMovem : MonoBehaviour
     void FixedUpdate()
     {
         
-            jump();
+           
        
         /*float z = Input.GetAxis("Horizontal");
         float x = Input.GetAxis("Vertical");
@@ -208,7 +210,7 @@ public class PlayerMovem : MonoBehaviour
     private void jump()
     {
         Debug.Log("Jump Called");
-        if (isJumping)
+        /*if (isJumping)*/
         {
             Debug.Log("jumping");
             rb.AddForce(Vector3.up * jumpForce,ForceMode.Impulse);
