@@ -32,7 +32,7 @@ public class PlayerMovem : MonoBehaviour
     {   
         rb = GetComponent<Rigidbody>();
         anim = GetComponent<Animator>();
-        anim.SetBool("isRunning", false);
+        anim.SetBool("isRunning", true);
         originalSpeed = speed;
         moveleft = KeyCode.A;
         moveright = KeyCode.D;

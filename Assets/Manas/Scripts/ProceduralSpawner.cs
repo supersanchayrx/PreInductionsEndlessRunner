@@ -34,6 +34,6 @@ public class ProceduralSpawner : MonoBehaviour
         int randPowerUp = Random.Range(0, powerUps.Length); 
         GameObject powerUp = powerUps[randPowerUp];
         //Debug.Log(spawnPoint.name);
-        Instantiate(powerUp, spawnPoint.position,spawnPoint.rotation);
+        Instantiate(powerUp, spawnPoint.position, /*spawnPoint.rotation*//*Quaternion.identity*/powerUp.transform.rotation);
     }
 }

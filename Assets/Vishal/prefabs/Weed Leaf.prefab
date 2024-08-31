@@ -9,9 +9,11 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8534014744484049022}
+  - component: {fileID: 6475944185841880075}
+  - component: {fileID: 943657226381751074}
   m_Layer: 0
   m_Name: Weed Leaf
-  m_TagString: Untagged
+  m_TagString: Weed
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24,14 +26,48 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2395694737048315564}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.056373563, y: -0.76784563, z: 0.6364368, w: -0.046725817}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.31, y: 2.06, z: -16.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 6649460565382124497}
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 100.69202, y: 0, z: 188.398}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6475944185841880075
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2395694737048315564}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bce8c8c60c22d474293d576f93867cd9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lifeTime: 10
+--- !u!65 &943657226381751074
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2395694737048315564}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.0466166, y: 0.8094189, z: 0.42606664}
+  m_Center: {x: 0.6150105, y: 0.47705162, z: -0.49351084}
 --- !u!1 &3472276031537278155
 GameObject:
   m_ObjectHideFlags: 0
@@ -59,7 +95,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3472276031537278155}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.65507054, y: 0.0000000037252907, z: -0, w: 0.7555677}
+  m_LocalRotation: {x: -0.02330089, y: -0.99644977, z: -0.062172975, w: -0.051763635}
   m_LocalPosition: {x: 0.44, y: 0.3, z: -0.27}
   m_LocalScale: {x: 50, y: 50, z: 50}
   m_ConstrainProportionsScale: 1
