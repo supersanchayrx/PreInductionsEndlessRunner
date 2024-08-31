@@ -16,6 +16,8 @@ public class PlayerMovem : MonoBehaviour
     public KeyCode moveleft;
     public KeyCode moveright;
 
+    public LeaderBoardManger leaderboard;
+
     public bool isGrounded, isJumping;
 
     public LayerMask groundlayer;
@@ -26,6 +28,8 @@ public class PlayerMovem : MonoBehaviour
     [SerializeField] float switch_speed;
     [SerializeField] Transform right_lane, left_lane, center_lane;
     spawner_despawner spawner_Despawner;
+
+    scoreManager scoreManagerScript;
 
     //[SerializeField] Animator anim;
     void Start()
@@ -38,6 +42,7 @@ public class PlayerMovem : MonoBehaviour
         moveright = KeyCode.D;
          isJumping = false;
         spawner_Despawner = gameObject.transform.Find("box_check").GetComponent<spawner_despawner>();
+        scoreManagerScript = GameObject.Find("score").GetComponent<scoreManager>();
     }
     private void Update()
     {
@@ -173,6 +178,7 @@ public class PlayerMovem : MonoBehaviour
     {
         if (!isSlowed)
         {
+            scoreManagerScript.ReduceScore();
             isSlowed = true;
             speed *= 0.75f; // Reduce speed by 25%
             Debug.Log("Slowed!");
@@ -197,6 +203,7 @@ public class PlayerMovem : MonoBehaviour
 
     public void Die()
     {
+        leaderboard.UploadEntry();
         isDead = true;
         Destroy(this.gameObject); // Destroy player object
     }
