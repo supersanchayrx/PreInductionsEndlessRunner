@@ -3,6 +3,8 @@ using UnityEngine;
 public class GroundTile : MonoBehaviour
 {
     GroundSpawner groundSpawner;
+    public GameObject obstaclePrefab;
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -22,7 +24,7 @@ public class GroundTile : MonoBehaviour
     {
 
     }
-    public GameObject obstaclePrefab;
+    
 
     void SpawnObstacle()
     {
@@ -31,6 +33,7 @@ public class GroundTile : MonoBehaviour
         Transform spawnPoint = transform.GetChild(obstacleSpawnIndex).transform;
         // Spawn the obstacle at that position
         Instantiate(obstaclePrefab, spawnPoint.position, Quaternion.identity, transform);
+        
     }
 }
 

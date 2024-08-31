@@ -190,8 +190,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe9f78bfac9532c40bfd6d796c944d41, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  obstaclePrefab: {fileID: 5381374639706543170, guid: 5022536344fafd248a3d6104db737cb0,
+  obstaclePrefab: {fileID: 80956649558454107, guid: e05f2ada9f11be34ba83e2560fdc690d,
     type: 3}
+  bench: {fileID: 5612226475371294825, guid: 9f8810764b60a6147b3debd0dff4d05d, type: 3}
 --- !u!1 &2855272878030949916
 GameObject:
   m_ObjectHideFlags: 0
