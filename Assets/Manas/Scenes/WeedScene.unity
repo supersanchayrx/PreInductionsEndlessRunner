@@ -1531,8 +1531,8 @@ MonoBehaviour:
   player: {fileID: 841775860}
   powerUps:
   - {fileID: 804487281258257772, guid: 55048ce032c64864b9af35f83f379f6e, type: 3}
-  - {fileID: 9191624578879820648, guid: b70944a42b8d20d4493d76bd03e74c24, type: 3}
-  - {fileID: 405956152070707130, guid: b1c18ecd94f9665419c61f962cd8fc36, type: 3}
+  - {fileID: 2395694737048315564, guid: 86adba5aca5157d4ab3a2b4079e03356, type: 3}
+  - {fileID: 6147643307012156227, guid: 7f13f86cb94d63b438b8aa1f8d801786, type: 3}
   spawnTime: 1
   spawnDist: 50
 --- !u!1 &734774210
