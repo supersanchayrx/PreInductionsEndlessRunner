@@ -5,6 +5,10 @@ using UnityEngine.SceneManagement;
 
 public class sceneChanger : MonoBehaviour
 {
+    public scoreManager scoreScript;
+
+
+    
     public void ChangeSceneToGame()
     {
         SceneManager.LoadScene("WeedScene");
@@ -12,6 +16,8 @@ public class sceneChanger : MonoBehaviour
 
     public void RestartScene()
     {
+        scoreScript.Score = 0;
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        
     }
 }

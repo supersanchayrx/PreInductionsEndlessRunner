@@ -31,6 +31,8 @@ public class PlayerMovem : MonoBehaviour
 
     scoreManager scoreManagerScript;
 
+    public GameObject menuPanel;
+
     //[SerializeField] Animator anim;
     void Start()
     {   
@@ -43,6 +45,7 @@ public class PlayerMovem : MonoBehaviour
          isJumping = false;
         spawner_Despawner = gameObject.transform.Find("box_check").GetComponent<spawner_despawner>();
         scoreManagerScript = GameObject.Find("score").GetComponent<scoreManager>();
+        menuPanel.gameObject.SetActive(false);
     }
     private void Update()
     {
@@ -203,9 +206,13 @@ public class PlayerMovem : MonoBehaviour
 
     public void Die()
     {
+
         leaderboard.UploadEntry();
         isDead = true;
         Destroy(this.gameObject); // Destroy player object
+
+        menuPanel.gameObject.SetActive(true);
+
     }
     public bool IsSlowed()
     {

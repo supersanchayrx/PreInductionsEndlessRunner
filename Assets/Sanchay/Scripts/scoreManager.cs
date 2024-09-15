@@ -1,20 +1,25 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 
 public class scoreManager : MonoBehaviour
 {
     public int Score;
+    public TextMeshProUGUI scoreText;
+
     
 
     private void Start()
     {
         Score = 0;
+        InvokeRepeating("AddScoreDistance", 1f, 1f);
     }
 
     private void Update()
     {
-        AddScoreDistance();
+        //AddScoreDistance();
+        scoreText.text = Score.ToString();
     }
 
    
