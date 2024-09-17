@@ -61,12 +61,16 @@ public class PlayerMovem : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space) && isGrounded)
         {
             isJumping = true;
+
+            
             jump();
         }
 
         else
         {
+            
             isJumping = false;
+            
         }
         
 
@@ -203,13 +207,22 @@ public class PlayerMovem : MonoBehaviour
             speed = originalSpeed; // Reset speed to original
         }
     }
+    private IEnumerator jumpanim()
+    {
+        anim.SetBool("isRunning", false);
+        anim.SetBool("jump", true);
+        yield return new WaitForSeconds(0.2f);
+        anim.SetBool("isRunning", true);
+        anim.SetBool("jump", false);
+    }
 
     public void Die()
     {
 
         leaderboard.UploadEntry();
         isDead = true;
-        Destroy(this.gameObject); // Destroy player object
+        //Destroy(this.gameObject); // Destroy player object
+        anim.SetBool("ded", true); // Playing sad animation instead of destroying player. :)
 
         menuPanel.gameObject.SetActive(true);
 
@@ -230,7 +243,10 @@ public class PlayerMovem : MonoBehaviour
         /*if (isJumping)*/
         {
             Debug.Log("jumping");
+
             rb.AddForce(Vector3.up * jumpForce,ForceMode.Impulse);
+            StartCoroutine(jumpanim());
+            
             //rb.velocity = new Vector3(rb.velocity.x, 10, 0);
         }
     }

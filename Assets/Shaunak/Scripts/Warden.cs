@@ -54,6 +54,12 @@ public class Warden : MonoBehaviour
         {
             wardenRun();
         }
+
+        if (anim.GetBool("ded"))
+        {
+            
+            anim.SetBool("chicken",true);
+        }
     }
 
     void wardenRun()

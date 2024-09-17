@@ -12158,7 +12158,7 @@ Animator:
   m_Controller: {fileID: 9100000, guid: 16c7037db198f7845a28ec2e37aaf1b8, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
-  m_ApplyRootMotion: 0
+  m_ApplyRootMotion: 1
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
   m_WarningMessage: 
@@ -30108,11 +30108,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: TchaserWarden
-      objectReference: {fileID: 0}
-    - target: {fileID: 6199474377189900321, guid: 4bbc70604fe92a24db22d0a2613080be,
-        type: 3}
-      propertyPath: stopDistance
-      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

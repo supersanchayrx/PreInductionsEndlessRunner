@@ -1194,7 +1194,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 7
   anim: {fileID: 4910770886108234426}
-  stopDistance: 0
+  stopDistance: 2
 --- !u!136 &3781414683982392992
 CapsuleCollider:
   m_ObjectHideFlags: 0
