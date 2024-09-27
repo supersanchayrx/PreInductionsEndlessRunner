@@ -61,8 +61,12 @@ public class PlayerMovem : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space) && isGrounded)
         {
             isJumping = true;
-
+            anim.SetBool("isRunning", false);
+            anim.SetBool("jumping",true);
             
+
+
+
             jump();
         }
 
@@ -70,9 +74,21 @@ public class PlayerMovem : MonoBehaviour
         {
             
             isJumping = false;
+            anim.SetBool("jumping", false);
+            anim.SetBool("isRunning", true);
+
+        }
+
+        if (rb.velocity.y < 0 && !isGrounded)
+        {
+            anim.SetBool("isFalling", true);
+        }
+        else if (rb.velocity.y !< 0 && isGrounded)
+        {
+            anim.SetBool("isFalling", false);
             
         }
-        
+
 
         //jump_timer -= Time.deltaTime;
         /*if (Input.GetKeyDown(moveright))
@@ -207,14 +223,14 @@ public class PlayerMovem : MonoBehaviour
             speed = originalSpeed; // Reset speed to original
         }
     }
-    private IEnumerator jumpanim()
+    /*private IEnumerator jumpanim()
     {
         anim.SetBool("isRunning", false);
         anim.SetBool("jump", true);
         yield return new WaitForSeconds(0.2f);
         anim.SetBool("isRunning", true);
         anim.SetBool("jump", false);
-    }
+    }*/
 
     public void Die()
     {
@@ -245,7 +261,9 @@ public class PlayerMovem : MonoBehaviour
             Debug.Log("jumping");
 
             rb.AddForce(Vector3.up * jumpForce,ForceMode.Impulse);
-            StartCoroutine(jumpanim());
+
+            
+            //StartCoroutine(jumpanim());
             
             //rb.velocity = new Vector3(rb.velocity.x, 10, 0);
         }
