@@ -132,9 +132,9 @@ GameObject:
   m_Component:
   - component: {fileID: 63551959}
   - component: {fileID: 63551958}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: NewGroundTileLong (1)
-  m_TagString: Untagged
+  m_TagString: Roads
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -209,7 +209,7 @@ GameObject:
   - component: {fileID: 135850812}
   - component: {fileID: 135850814}
   - component: {fileID: 135850813}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: default
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -409,7 +409,7 @@ GameObject:
   - component: {fileID: 238924211}
   - component: {fileID: 238924213}
   - component: {fileID: 238924212}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Lamp
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -662,7 +662,7 @@ GameObject:
   - component: {fileID: 271554491}
   - component: {fileID: 271554490}
   - component: {fileID: 271554489}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: rua
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -767,7 +767,7 @@ GameObject:
   - component: {fileID: 272759423}
   - component: {fileID: 272759425}
   - component: {fileID: 272759424}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: default
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -848,7 +848,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 274689198}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: nextSpawnPoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -879,7 +879,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 291806326}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Lamp (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1010,7 +1010,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 347774933}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: bench (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1324,7 +1324,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 423662948}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Lamp (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1429,7 +1429,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 495755245}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: HostelLong
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1465,7 +1465,7 @@ GameObject:
   - component: {fileID: 518130443}
   - component: {fileID: 518130445}
   - component: {fileID: 518130444}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: "\u043A\u0443\u0441\u0442 (9)"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1481,7 +1481,7 @@ Transform:
   m_GameObject: {fileID: 518130442}
   serializedVersion: 2
   m_LocalRotation: {x: 0.33204514, y: -0.9100155, z: 0.13568872, w: -0.2078614}
-  m_LocalPosition: {x: -8.860001, y: 1.99, z: 2.3499985}
+  m_LocalPosition: {x: -8.59, y: 0.98, z: 2.63}
   m_LocalScale: {x: 0.09872479, y: 0.32999995, z: 0.32999992}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1549,7 +1549,7 @@ GameObject:
   - component: {fileID: 592028645}
   - component: {fileID: 592028644}
   - component: {fileID: 592028643}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: rua
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1759,7 +1759,7 @@ GameObject:
   - component: {fileID: 607324930}
   - component: {fileID: 607324932}
   - component: {fileID: 607324931}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: "\u043A\u0443\u0441\u0442 (1)"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1974,7 +1974,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 744784502}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: untitled
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2009,7 +2009,7 @@ GameObject:
   - component: {fileID: 754066365}
   - component: {fileID: 754066367}
   - component: {fileID: 754066366}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: default
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2092,7 +2092,7 @@ GameObject:
   - component: {fileID: 775441648}
   - component: {fileID: 775441650}
   - component: {fileID: 775441649}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: "\u043A\u0443\u0441\u0442 (8)"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2108,7 +2108,7 @@ Transform:
   m_GameObject: {fileID: 775441647}
   serializedVersion: 2
   m_LocalRotation: {x: 0.33204514, y: -0.9100155, z: 0.13568872, w: -0.2078614}
-  m_LocalPosition: {x: -8.89, y: 1.8599999, z: 8.589996}
+  m_LocalPosition: {x: -8.67, y: 0.98, z: 8.81}
   m_LocalScale: {x: 0.09872479, y: 0.32999995, z: 0.32999992}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2795,7 +2795,7 @@ GameObject:
   - component: {fileID: 929460463}
   - component: {fileID: 929460465}
   - component: {fileID: 929460464}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: default
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2878,7 +2878,7 @@ GameObject:
   - component: {fileID: 1006379914}
   - component: {fileID: 1006379916}
   - component: {fileID: 1006379915}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: "\u043A\u0443\u0441\u0442 (6)"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2894,7 +2894,7 @@ Transform:
   m_GameObject: {fileID: 1006379913}
   serializedVersion: 2
   m_LocalRotation: {x: 0.33204514, y: -0.9100155, z: 0.13568872, w: -0.2078614}
-  m_LocalPosition: {x: -9, y: 1.53, z: 20.510002}
+  m_LocalPosition: {x: -8.71, y: 0.55, z: 20.79}
   m_LocalScale: {x: 0.09872479, y: 0.32999995, z: 0.32999992}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2961,7 +2961,7 @@ GameObject:
   - component: {fileID: 1054651759}
   - component: {fileID: 1054651761}
   - component: {fileID: 1054651760}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: "\u043A\u0443\u0441\u0442 (2)"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3044,7 +3044,7 @@ GameObject:
   - component: {fileID: 1143739057}
   - component: {fileID: 1143739059}
   - component: {fileID: 1143739058}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: default
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3127,7 +3127,7 @@ GameObject:
   - component: {fileID: 1180707164}
   - component: {fileID: 1180707166}
   - component: {fileID: 1180707165}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Lamp
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3243,7 +3243,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1189477123}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: bench (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3277,7 +3277,7 @@ GameObject:
   - component: {fileID: 1205218983}
   - component: {fileID: 1205218985}
   - component: {fileID: 1205218984}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: "\u043A\u0443\u0441\u0442 (3)"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3358,7 +3358,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1238399968}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: untitled (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3393,7 +3393,7 @@ GameObject:
   - component: {fileID: 1294571855}
   - component: {fileID: 1294571857}
   - component: {fileID: 1294571856}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: "\u043A\u0443\u0441\u0442 (7)"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3409,7 +3409,7 @@ Transform:
   m_GameObject: {fileID: 1294571854}
   serializedVersion: 2
   m_LocalRotation: {x: 0.33204514, y: -0.9100155, z: 0.13568872, w: -0.2078614}
-  m_LocalPosition: {x: -9.05, y: 1.6599998, z: 14.459999}
+  m_LocalPosition: {x: -8.88, y: 0.8, z: 14.66}
   m_LocalScale: {x: 0.09872479, y: 0.32999995, z: 0.32999992}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3521,7 +3521,7 @@ Transform:
   m_GameObject: {fileID: 1322496903}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.3, z: 0}
+  m_LocalPosition: {x: 0, y: -0.2, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3672,7 +3672,7 @@ GameObject:
   - component: {fileID: 1337395729}
   - component: {fileID: 1337395731}
   - component: {fileID: 1337395730}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Lamp
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3804,7 +3804,7 @@ Transform:
   m_GameObject: {fileID: 1357388146}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4, y: 0.3, z: 0}
+  m_LocalPosition: {x: 4, y: -0.2, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3822,7 +3822,7 @@ GameObject:
   - component: {fileID: 1372186796}
   - component: {fileID: 1372186795}
   - component: {fileID: 1372186794}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: rua
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4332,8 +4332,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e452f7073928010429b18a76a5da412d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  prefab1: {fileID: 6069183861824752456, guid: 17e50036b99b4034b9d3fcf9eebfb3fb, type: 3}
-  prefab2: {fileID: 801666520471293835, guid: 1e281f021657d174d9e74ddc47d20d77, type: 3}
+  prefab1: {fileID: 801666520471293835, guid: 1e281f021657d174d9e74ddc47d20d77, type: 3}
+  prefab2: {fileID: 6069183861824752456, guid: 17e50036b99b4034b9d3fcf9eebfb3fb, type: 3}
 --- !u!4 &1472811156
 Transform:
   m_ObjectHideFlags: 0
@@ -4358,7 +4358,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1473195091}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Lamp (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4458,7 +4458,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1537291190}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: GameObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4491,7 +4491,7 @@ GameObject:
   - component: {fileID: 1552416427}
   - component: {fileID: 1552416429}
   - component: {fileID: 1552416428}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: "\u043A\u0443\u0441\u0442 (4)"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4692,7 +4692,7 @@ GameObject:
   - component: {fileID: 1569255351}
   - component: {fileID: 1569255353}
   - component: {fileID: 1569255352}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: default
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4708,7 +4708,7 @@ Transform:
   m_GameObject: {fileID: 1569255350}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalPosition: {x: -0, y: -0.65, z: -0.61}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4775,7 +4775,7 @@ GameObject:
   - component: {fileID: 1584065618}
   - component: {fileID: 1584065620}
   - component: {fileID: 1584065619}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: default
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4856,7 +4856,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1588764908}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: bench (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4888,7 +4888,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1592169127}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: untitled (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4923,7 +4923,7 @@ GameObject:
   - component: {fileID: 1624284473}
   - component: {fileID: 1624284475}
   - component: {fileID: 1624284474}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: "\u043A\u0443\u0441\u0442 (5)"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4939,7 +4939,7 @@ Transform:
   m_GameObject: {fileID: 1624284472}
   serializedVersion: 2
   m_LocalRotation: {x: 0.33204514, y: -0.9100155, z: 0.13568872, w: -0.2078614}
-  m_LocalPosition: {x: -8.96, y: 1.5799999, z: 26.309998}
+  m_LocalPosition: {x: -8.68, y: 0.76, z: 26.57}
   m_LocalScale: {x: 0.09872479, y: 0.32999995, z: 0.32999992}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5004,7 +5004,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1709462970}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Lamp (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5036,7 +5036,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1721768614}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Plane
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5136,7 +5136,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1759560550}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: bench (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5170,7 +5170,7 @@ GameObject:
   - component: {fileID: 1759963121}
   - component: {fileID: 1759963123}
   - component: {fileID: 1759963122}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: default
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5253,7 +5253,7 @@ GameObject:
   - component: {fileID: 1788680917}
   - component: {fileID: 1788680919}
   - component: {fileID: 1788680918}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: default
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5760,7 +5760,7 @@ GameObject:
   - component: {fileID: 1994236661}
   - component: {fileID: 1994236663}
   - component: {fileID: 1994236662}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: "\u043A\u0443\u0441\u0442"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5857,7 +5857,7 @@ Transform:
   m_GameObject: {fileID: 1999029023}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4, y: 0.3, z: 0}
+  m_LocalPosition: {x: -4, y: -0.2, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5872,7 +5872,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2003530090}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Lamp (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5906,7 +5906,7 @@ GameObject:
   - component: {fileID: 2004342029}
   - component: {fileID: 2004342031}
   - component: {fileID: 2004342030}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: default
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6144,7 +6144,7 @@ GameObject:
   - component: {fileID: 2049937440}
   - component: {fileID: 2049937442}
   - component: {fileID: 2049937441}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: default
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6225,7 +6225,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2106515124}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: NextSpawnPoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6302,7 +6302,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2139658147}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Lamp (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6334,7 +6334,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6083033550143889523}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: untitled
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6352,7 +6352,7 @@ GameObject:
   - component: {fileID: 6234101271189114921}
   - component: {fileID: 2807432398461536536}
   - component: {fileID: 4466910871079454954}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: "\u043A\u0443\u0441\u0442 (1)"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6368,7 +6368,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7449051520673812201}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Lamp (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6469,7 +6469,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8610158571268176168}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: GameObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6529,7 +6529,7 @@ GameObject:
   - component: {fileID: 887831570516825951}
   - component: {fileID: 4322872391136401658}
   - component: {fileID: 2024678922252692528}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: "\u043A\u0443\u0441\u0442"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6569,7 +6569,7 @@ Transform:
   m_GameObject: {fileID: 1004141136620783854}
   serializedVersion: 2
   m_LocalRotation: {x: 0.33204514, y: -0.9100155, z: 0.13568872, w: -0.2078614}
-  m_LocalPosition: {x: -9.05, y: 1.6599998, z: 7.512665}
+  m_LocalPosition: {x: -8.76, y: 0.71, z: 7.79}
   m_LocalScale: {x: 0.098724805, y: 0.32999995, z: 0.32999992}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -6817,7 +6817,7 @@ GameObject:
   - component: {fileID: 585700922206508088}
   - component: {fileID: 8040020562152447455}
   - component: {fileID: 6485529020021805061}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: "\u043A\u0443\u0441\u0442 (7)"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6835,7 +6835,7 @@ GameObject:
   - component: {fileID: 8091538505865238536}
   - component: {fileID: 6385475600661619010}
   - component: {fileID: 7617977425032316374}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: default
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6851,7 +6851,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4962836519891610669}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Lamp (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6869,7 +6869,7 @@ GameObject:
   - component: {fileID: 1961035204147079226}
   - component: {fileID: 3213640171215382431}
   - component: {fileID: 828050987454763861}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: "\u043A\u0443\u0441\u0442 (5)"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6885,7 +6885,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2694270455373942320}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: nextSpawnPoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6951,7 +6951,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5273197713010770297}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Lamp (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6969,7 +6969,7 @@ GameObject:
   - component: {fileID: 5070429824828578535}
   - component: {fileID: 7912171322147912890}
   - component: {fileID: 4149677611052011891}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: default
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7072,7 +7072,7 @@ GameObject:
   - component: {fileID: 1800824752237169143}
   - component: {fileID: 3409799994408748626}
   - component: {fileID: 627966612280717976}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: "\u043A\u0443\u0441\u0442 (7)"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7103,7 +7103,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1775490874352325428}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: untitled
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7223,7 +7223,7 @@ Transform:
   m_GameObject: {fileID: 2214080389145305730}
   serializedVersion: 2
   m_LocalRotation: {x: 0.33204514, y: -0.9100155, z: 0.13568872, w: -0.2078614}
-  m_LocalPosition: {x: -8.860001, y: 1.99, z: 2.3499985}
+  m_LocalPosition: {x: -8.7, y: 1.17, z: 2.54}
   m_LocalScale: {x: 0.09872479, y: 0.32999995, z: 0.32999992}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -7279,7 +7279,7 @@ Transform:
   m_GameObject: {fileID: 1420323001746035533}
   serializedVersion: 2
   m_LocalRotation: {x: 0.33204514, y: -0.9100155, z: 0.13568872, w: -0.2078614}
-  m_LocalPosition: {x: -9.05, y: 1.6599998, z: 14.459999}
+  m_LocalPosition: {x: -8.81, y: 0.84, z: 14.69}
   m_LocalScale: {x: 0.09872479, y: 0.32999995, z: 0.32999992}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -7367,7 +7367,7 @@ Transform:
   m_GameObject: {fileID: 1188158156472627840}
   serializedVersion: 2
   m_LocalRotation: {x: 0.33204514, y: -0.9100155, z: 0.13568872, w: -0.2078614}
-  m_LocalPosition: {x: -8.96, y: 1.5799999, z: 26.309998}
+  m_LocalPosition: {x: -8.66, y: 0.67, z: 26.59}
   m_LocalScale: {x: 0.09872479, y: 0.32999995, z: 0.32999992}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -7504,7 +7504,7 @@ GameObject:
   - component: {fileID: 7248389101161777353}
   - component: {fileID: 3472066129009640085}
   - component: {fileID: 4003243340071043493}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: rua
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7581,7 +7581,7 @@ GameObject:
   - component: {fileID: 1581377883632990264}
   - component: {fileID: 2476405144662931357}
   - component: {fileID: 412363117977502551}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: "\u043A\u0443\u0441\u0442 (9)"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7630,7 +7630,7 @@ Transform:
   m_GameObject: {fileID: 6785750110559413490}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalPosition: {x: -0, y: -0.97, z: -0.33}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -7684,7 +7684,7 @@ GameObject:
   - component: {fileID: 3065681534936308344}
   - component: {fileID: 2099986430420145629}
   - component: {fileID: 4233473541921939735}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: "\u043A\u0443\u0441\u0442 (8)"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7700,7 +7700,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2809710360971771200}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: nextSpawnPoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7726,7 +7726,7 @@ GameObject:
   - component: {fileID: 5475824691996169477}
   - component: {fileID: 9069041260248390688}
   - component: {fileID: 8862292590386093702}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: default
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7834,7 +7834,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7605352185630264031}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: untitled (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7850,7 +7850,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2949233822692345489}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: HostelLong
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7925,7 +7925,7 @@ GameObject:
   - component: {fileID: 4684814305887981713}
   - component: {fileID: 7982808352575071411}
   - component: {fileID: 1993944914502909535}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Lamp
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8004,7 +8004,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7411208998335839403}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: bench (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8082,7 +8082,7 @@ GameObject:
   - component: {fileID: 7443477597121998248}
   - component: {fileID: 3281551207906174852}
   - component: {fileID: 5028843905441067646}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: default
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8140,7 +8140,7 @@ Transform:
   m_GameObject: {fileID: 2432134777167020226}
   serializedVersion: 2
   m_LocalRotation: {x: 0.33204514, y: -0.9100155, z: 0.13568872, w: -0.2078614}
-  m_LocalPosition: {x: -8.89, y: 1.8599999, z: 8.589996}
+  m_LocalPosition: {x: -8.72, y: 0.95, z: 8.8}
   m_LocalScale: {x: 0.09872479, y: 0.32999995, z: 0.32999992}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -8156,9 +8156,9 @@ GameObject:
   m_Component:
   - component: {fileID: 7199251069376763628}
   - component: {fileID: 8577490737819192838}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: NewGroundTileLong
-  m_TagString: Untagged
+  m_TagString: Roads
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8174,7 +8174,7 @@ GameObject:
   - component: {fileID: 8890353572791114693}
   - component: {fileID: 922294274622514841}
   - component: {fileID: 5226897286196588901}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: default
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8190,7 +8190,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2865222628718544197}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: untitled (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8352,7 +8352,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8217158092323741829}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: bench (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8378,7 +8378,7 @@ GameObject:
   - component: {fileID: 2801197267416179851}
   - component: {fileID: 1256505977519074094}
   - component: {fileID: 3933039741007372260}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: "\u043A\u0443\u0441\u0442 (4)"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8394,7 +8394,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6364761176360776133}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: bench (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8460,7 +8460,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4305627912046826082}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Lamp (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8491,7 +8491,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2426512631932614985}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: NextSpawnPoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8507,7 +8507,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4114342531149489256}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: bench (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8523,7 +8523,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7406656272603425844}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Lamp (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8564,7 +8564,7 @@ GameObject:
   - component: {fileID: 3806359237829252761}
   - component: {fileID: 5317459374380855372}
   - component: {fileID: 3682047178180821155}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Lamp
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8674,7 +8674,7 @@ Transform:
   m_GameObject: {fileID: 6465960846285530865}
   serializedVersion: 2
   m_LocalRotation: {x: 0.33204514, y: -0.9100155, z: 0.13568872, w: -0.2078614}
-  m_LocalPosition: {x: -9, y: 1.53, z: 13.562668}
+  m_LocalPosition: {x: -8.72, y: 0.82, z: 13.8}
   m_LocalScale: {x: 0.098724805, y: 0.32999995, z: 0.32999992}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -8736,7 +8736,7 @@ GameObject:
   - component: {fileID: 5496847408473031543}
   - component: {fileID: 4749001004531996352}
   - component: {fileID: 2563719848581875881}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: default
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8956,7 +8956,7 @@ GameObject:
   - component: {fileID: 8385146227035147101}
   - component: {fileID: 2545624494839738963}
   - component: {fileID: 846907666530853358}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: "\u043A\u0443\u0441\u0442 (8)"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9030,7 +9030,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1750075236383981885}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: bench (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9069,7 +9069,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2022104063621821792}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: bench (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9129,7 +9129,7 @@ GameObject:
   - component: {fileID: 3842741244305286090}
   - component: {fileID: 215032966655519855}
   - component: {fileID: 2674861178543462565}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: "\u043A\u0443\u0441\u0442 (1)"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9145,7 +9145,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3876801824262646427}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: GameObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9161,7 +9161,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 538845244827616774}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Lamp (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9254,7 +9254,7 @@ Transform:
   m_GameObject: {fileID: 5309104424724910602}
   serializedVersion: 2
   m_LocalRotation: {x: 0.33204514, y: -0.9100155, z: 0.13568872, w: -0.2078614}
-  m_LocalPosition: {x: -9, y: 1.53, z: 20.510002}
+  m_LocalPosition: {x: -8.78, y: 0.71, z: 20.73}
   m_LocalScale: {x: 0.09872479, y: 0.32999995, z: 0.32999992}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -9271,7 +9271,7 @@ GameObject:
   - component: {fileID: 8373241916756058894}
   - component: {fileID: 548654159828419531}
   - component: {fileID: 8619192764856811008}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: default
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9392,7 +9392,7 @@ GameObject:
   - component: {fileID: 5628506533617083213}
   - component: {fileID: 7976628431590627136}
   - component: {fileID: 7643810144629556918}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: default
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9482,7 +9482,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1427149988085982535}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: NextSpawnPoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9500,7 +9500,7 @@ GameObject:
   - component: {fileID: 4820658051472066736}
   - component: {fileID: 8451481208920049429}
   - component: {fileID: 5957495021195326431}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: "\u043A\u0443\u0441\u0442 (6)"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9589,7 +9589,7 @@ GameObject:
   - component: {fileID: 1686110754487647876}
   - component: {fileID: 2551148458552382376}
   - component: {fileID: 2411456470370309111}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: rua
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9680,7 +9680,7 @@ GameObject:
   - component: {fileID: 1363081379332234903}
   - component: {fileID: 1239056151053869122}
   - component: {fileID: 5097427143880592445}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: rua
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9698,7 +9698,7 @@ GameObject:
   - component: {fileID: 3724650566052471610}
   - component: {fileID: 1974743400362138224}
   - component: {fileID: 3045005686376431332}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: default
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9771,7 +9771,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7286455382112586729}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Lamp (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9787,7 +9787,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7364478854411185281}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: untitled (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9805,7 +9805,7 @@ GameObject:
   - component: {fileID: 3560412753396978992}
   - component: {fileID: 1854937505382362234}
   - component: {fileID: 2926132443666598126}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: default
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9823,7 +9823,7 @@ GameObject:
   - component: {fileID: 6575321542281950399}
   - component: {fileID: 7849747279811410714}
   - component: {fileID: 5407434221380669392}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: "\u043A\u0443\u0441\u0442 (2)"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9887,7 +9887,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6552772826814930814}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: untitled (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9989,7 +9989,7 @@ GameObject:
   - component: {fileID: 1986892147446566205}
   - component: {fileID: 6165443299652394948}
   - component: {fileID: 9118046175190328647}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: default
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10007,7 +10007,7 @@ GameObject:
   - component: {fileID: 4689776231024032797}
   - component: {fileID: 4108790323950663841}
   - component: {fileID: 1886356877431964560}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: default
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10201,7 +10201,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8328777839963928413}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Plane
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10219,7 +10219,7 @@ GameObject:
   - component: {fileID: 3785425730416888999}
   - component: {fileID: 8671537680044682535}
   - component: {fileID: 6780596703535147511}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: "\u043A\u0443\u0441\u0442 (6)"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10235,7 +10235,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5840093394050224566}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Plane
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10365,7 +10365,7 @@ GameObject:
   - component: {fileID: 4337174438271503018}
   - component: {fileID: 1439974307065167496}
   - component: {fileID: 7392828886174180452}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Lamp
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10440,7 +10440,7 @@ GameObject:
   - component: {fileID: 2350312463056517065}
   - component: {fileID: 597522893236735619}
   - component: {fileID: 4138642884958693911}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: default
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10458,7 +10458,7 @@ GameObject:
   - component: {fileID: 6485761787929480407}
   - component: {fileID: 5167645288567290982}
   - component: {fileID: 5890433483787952318}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: default
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10477,7 +10477,7 @@ GameObject:
   - component: {fileID: 2793530129246749827}
   - component: {fileID: 8249660062647979743}
   - component: {fileID: 2092012776255571443}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: rua
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10495,7 +10495,7 @@ GameObject:
   - component: {fileID: 1963532494400996075}
   - component: {fileID: 249181134958838184}
   - component: {fileID: 4721169432567643765}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Lamp
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10514,7 +10514,7 @@ GameObject:
   - component: {fileID: 1847605723320767218}
   - component: {fileID: 5556370300859701422}
   - component: {fileID: 7541756615158806081}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: rua
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10662,7 +10662,7 @@ GameObject:
   - component: {fileID: 238728626739748059}
   - component: {fileID: 3214248826090498297}
   - component: {fileID: 6482938210022421013}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Lamp
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10694,7 +10694,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2274760802372071559}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: HostelLong
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10712,7 +10712,7 @@ GameObject:
   - component: {fileID: 5861091183604248223}
   - component: {fileID: 3218618643147508605}
   - component: {fileID: 633032613898728791}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: default
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10800,7 +10800,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4683677601346654325}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: bench (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10816,7 +10816,7 @@ Transform:
   m_GameObject: {fileID: 3011760438167185547}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 1.4, y: 0, z: 6.2}
+  m_LocalPosition: {x: 1.4, y: -0.48, z: 5.02}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -10848,9 +10848,9 @@ GameObject:
   m_Component:
   - component: {fileID: 8513098255558098727}
   - component: {fileID: 2116714056488145573}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: NewGroundTileShort
-  m_TagString: Untagged
+  m_TagString: Roads
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10875,7 +10875,7 @@ GameObject:
   - component: {fileID: 2137704693785905416}
   - component: {fileID: 3713039571380940170}
   - component: {fileID: 3757477827232565897}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: rua
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10915,7 +10915,7 @@ GameObject:
   - component: {fileID: 2283322715615877976}
   - component: {fileID: 1413558252276448343}
   - component: {fileID: 8483667378204815581}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Lamp
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11047,7 +11047,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 746914700372230090}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Lamp (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11081,7 +11081,7 @@ GameObject:
   - component: {fileID: 6657531530987530695}
   - component: {fileID: 5258728474784838330}
   - component: {fileID: 6358182507208653461}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: default
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11192,7 +11192,7 @@ GameObject:
   - component: {fileID: 1897065061903995577}
   - component: {fileID: 677966631764751564}
   - component: {fileID: 1529432111218479107}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: default
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11296,7 +11296,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8663482388542859600}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: bench (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11345,7 +11345,7 @@ Transform:
   m_GameObject: {fileID: 4162304512778633357}
   serializedVersion: 2
   m_LocalRotation: {x: 0.33204514, y: -0.9100155, z: 0.13568872, w: -0.2078614}
-  m_LocalPosition: {x: -8.89, y: 1.8599999, z: 1.6426544}
+  m_LocalPosition: {x: -8.72, y: 0.96, z: 1.85}
   m_LocalScale: {x: 0.098724805, y: 0.32999995, z: 0.32999992}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -11567,7 +11567,7 @@ GameObject:
   - component: {fileID: 8243448108830173909}
   - component: {fileID: 5028629573797881200}
   - component: {fileID: 7074504918537589178}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: "\u043A\u0443\u0441\u0442 (3)"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11585,7 +11585,7 @@ GameObject:
   - component: {fileID: 4016256205826371417}
   - component: {fileID: 5327699798023897545}
   - component: {fileID: 6146853740708528350}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: "\u043A\u0443\u0441\u0442 (2)"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11603,7 +11603,7 @@ GameObject:
   - component: {fileID: 3714056776405026736}
   - component: {fileID: 606850539349858743}
   - component: {fileID: 7229499155295275185}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: default
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11728,7 +11728,7 @@ GameObject:
   - component: {fileID: 7672394181309211675}
   - component: {fileID: 7484478158214071579}
   - component: {fileID: 8397085691569553189}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: "\u043A\u0443\u0441\u0442 (3)"
   m_TagString: Untagged
   m_Icon: {fileID: 0}

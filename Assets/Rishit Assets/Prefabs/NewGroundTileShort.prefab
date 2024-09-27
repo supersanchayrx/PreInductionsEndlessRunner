@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 8300016436066423541}
   - component: {fileID: 9159651683380999674}
   - component: {fileID: 1818437856588102000}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Lamp
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -127,7 +127,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5138850203106554157}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: ObstacleSpawnMiddle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -158,7 +158,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8291685420398770474}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: HostelLong
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -194,9 +194,9 @@ GameObject:
   - component: {fileID: 1919924130110535306}
   - component: {fileID: 8205696134412540680}
   - component: {fileID: 2876615937918151845}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: NewGroundTileShort
-  m_TagString: Untagged
+  m_TagString: Roads
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -281,7 +281,7 @@ GameObject:
   - component: {fileID: 8154556606473994405}
   - component: {fileID: 6847499766257476647}
   - component: {fileID: 6387607568849781540}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: rua
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -384,7 +384,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3206469365482478040}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: bench (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -418,7 +418,7 @@ GameObject:
   - component: {fileID: 8628817129301117766}
   - component: {fileID: 8067404870669993989}
   - component: {fileID: 3243893026918610904}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Lamp
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -536,7 +536,7 @@ GameObject:
   - component: {fileID: 502636016382537142}
   - component: {fileID: 819193519095467190}
   - component: {fileID: 1731662518616422024}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: "\u043A\u0443\u0441\u0442 (3)"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -619,7 +619,7 @@ GameObject:
   - component: {fileID: 6574396384475408116}
   - component: {fileID: 2697554667480238180}
   - component: {fileID: 4165385419523836275}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: "\u043A\u0443\u0441\u0442 (2)"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -702,7 +702,7 @@ GameObject:
   - component: {fileID: 6848448797261483549}
   - component: {fileID: 7272080059753173018}
   - component: {fileID: 636201879904534812}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: default
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -785,7 +785,7 @@ GameObject:
   - component: {fileID: 8562419930999184148}
   - component: {fileID: 7343389807875079521}
   - component: {fileID: 8771265458276473262}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: default
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -869,7 +869,7 @@ GameObject:
   - component: {fileID: 9109315685438576442}
   - component: {fileID: 9057418424026524143}
   - component: {fileID: 3043830722534442384}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: rua
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -972,7 +972,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 771113272072217900}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: untitled (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1008,7 +1008,7 @@ GameObject:
   - component: {fileID: 8927873736695772969}
   - component: {fileID: 5757826907961104901}
   - component: {fileID: 5618064555533179482}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: rua
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1111,7 +1111,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4644548930475647454}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: ObstacleSpawnLeft
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1142,7 +1142,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8321174593177915951}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: ObstacleSpawnRight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1175,7 +1175,7 @@ GameObject:
   - component: {fileID: 2493887877202569952}
   - component: {fileID: 158404833177788141}
   - component: {fileID: 474054177922076443}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: default
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1256,7 +1256,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7780590634777317291}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Lamp (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1290,7 +1290,7 @@ GameObject:
   - component: {fileID: 3927812785587553658}
   - component: {fileID: 3114031412345304523}
   - component: {fileID: 4413368324827031827}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: default
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1373,7 +1373,7 @@ GameObject:
   - component: {fileID: 6343568246941582602}
   - component: {fileID: 1501691554379834506}
   - component: {fileID: 3646206878743814234}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: "\u043A\u0443\u0441\u0442 (6)"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1389,7 +1389,7 @@ Transform:
   m_GameObject: {fileID: 3835901610649136988}
   serializedVersion: 2
   m_LocalRotation: {x: 0.33204514, y: -0.9100155, z: 0.13568872, w: -0.2078614}
-  m_LocalPosition: {x: -9, y: 1.53, z: 13.562668}
+  m_LocalPosition: {x: -8.75, y: 0.6, z: 13.82}
   m_LocalScale: {x: 0.098724805, y: 0.32999995, z: 0.32999992}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1454,7 +1454,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4434995527431608347}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Plane
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1490,7 +1490,7 @@ GameObject:
   - component: {fileID: 8580116988819997840}
   - component: {fileID: 4111899792985953897}
   - component: {fileID: 1299754408328686826}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: default
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1573,7 +1573,7 @@ GameObject:
   - component: {fileID: 1720525038042419816}
   - component: {fileID: 6939146324817850164}
   - component: {fileID: 2596820463011936456}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: default
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1654,7 +1654,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2200391799809714472}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: bench (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1688,7 +1688,7 @@ GameObject:
   - component: {fileID: 850303466238714885}
   - component: {fileID: 4686558908867259945}
   - component: {fileID: 2975300403333839827}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: default
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1704,7 +1704,7 @@ Transform:
   m_GameObject: {fileID: 4993231095890600230}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 1.4, y: 0, z: 6.2}
+  m_LocalPosition: {x: 1.4, y: -1.01, z: 5.63}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1769,7 +1769,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 745783627350390022}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: bench (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1801,7 +1801,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5367852873122919661}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: nextSpawnPoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1832,7 +1832,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 363606932847739762}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: untitled (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1865,7 +1865,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8110875168256343245}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: bench (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1899,7 +1899,7 @@ GameObject:
   - component: {fileID: 1791991754012672752}
   - component: {fileID: 5752142278307970046}
   - component: {fileID: 7440152303473633347}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: "\u043A\u0443\u0441\u0442 (8)"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1915,7 +1915,7 @@ Transform:
   m_GameObject: {fileID: 6143772967111543072}
   serializedVersion: 2
   m_LocalRotation: {x: 0.33204514, y: -0.9100155, z: 0.13568872, w: -0.2078614}
-  m_LocalPosition: {x: -8.89, y: 1.8599999, z: 1.6426544}
+  m_LocalPosition: {x: -8.67, y: 0.9, z: 1.88}
   m_LocalScale: {x: 0.098724805, y: 0.32999995, z: 0.32999992}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1980,7 +1980,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5561063118423896292}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: NextSpawnPoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2013,7 +2013,7 @@ GameObject:
   - component: {fileID: 6364306041209823028}
   - component: {fileID: 2687241809149786593}
   - component: {fileID: 6888584894533552398}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Lamp
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2131,7 +2131,7 @@ GameObject:
   - component: {fileID: 7251000949060476309}
   - component: {fileID: 221675884377478258}
   - component: {fileID: 3927511989690751400}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: "\u043A\u0443\u0441\u0442 (7)"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2147,7 +2147,7 @@ Transform:
   m_GameObject: {fileID: 7020834860366971203}
   serializedVersion: 2
   m_LocalRotation: {x: 0.33204514, y: -0.9100155, z: 0.13568872, w: -0.2078614}
-  m_LocalPosition: {x: -9.05, y: 1.6599998, z: 7.512665}
+  m_LocalPosition: {x: -8.71, y: 0.73, z: 7.8}
   m_LocalScale: {x: 0.098724805, y: 0.32999995, z: 0.32999992}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2212,7 +2212,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2016773201874432133}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: GameObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2243,7 +2243,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4101424492413577694}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: untitled
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2278,7 +2278,7 @@ GameObject:
   - component: {fileID: 4180346521254893956}
   - component: {fileID: 5365592506899677365}
   - component: {fileID: 5872076907351916871}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: "\u043A\u0443\u0441\u0442 (1)"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2359,7 +2359,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2715178479628912852}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Lamp (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
